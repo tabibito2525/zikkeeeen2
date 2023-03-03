@@ -269,4 +269,22 @@ footer {
   .message-wrapper .btn {
     width: 100%;
   }
+  .side {
+  background-color:#ff838b;
+  width:100px;
+  height:300px;
+  text-align:center;
+} 
+
+.content {
+  background-color:#b3d874;
+  width:250px;
+  height:300px;
+  text-align:center;
+  margin-left:10px;/*サイドバーとメインコンテンツの間に隙間                    をあけた*/
+}
+
+article {
+  display:flex;/*サイドバーとメインコンテンツを横並びにする                指定をした*/
+}
 }
